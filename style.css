@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url('vampi.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#time{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    color: rgb(37, 160, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    text-shadow: 5px 5px rgb(201, 15, 9);
+}
